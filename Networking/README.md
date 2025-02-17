@@ -14,13 +14,13 @@ _“From the mouth of Python’s lair, A name is whispered to the air. Sixteen s
 **Challenge - 3**
 > **Description:**
 
-_“The Home of the Oracle is where you seek,
-The Packet Structure, is as follows
-Magic, Version, Type, and Length,
-The Details you seek is post all this,
-Numbers veil the truth you seek,
-Python is the Key, a cipher flows,
-Six symbols are to be cycled,
+_“The Home of the Oracle is where you seek,  
+The Packet Structure, is as follows  
+Magic, Version, Type, and Length,  
+The Details you seek is post all this,  
+Numbers veil the truth you seek,  
+Python is the Key, a cipher flows,  
+Six symbols are to be cycled,  
 Unravel the riddle with the bitwise cipher to see.”_
 
 ------------------------
