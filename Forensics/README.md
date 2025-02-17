@@ -1,5 +1,5 @@
-**Forensics Challenges**
 ------------------------
+# **Forensics Challenges**
 
 **Log Analysis - 1Description:**
 
@@ -20,3 +20,4 @@ _Unfortunately, the drive was severely damaged in a lab accident, and the histor
 **Disk - 3: Classified DriveDescription:**
 
 _“██████”_
+------------------------
