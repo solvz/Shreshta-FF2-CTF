@@ -1,0 +1,24 @@
+Feb 09 00:00:10 server kernel: [1234567.123456] IPv4: Forwarding is enabled
+Feb 09 00:00:12 server kernel: [1234567.123789] New USB device connected: HID Keyboard
+Feb 09 00:00:14 server auditd[123]: Successful login from 192.168.1.100
+Feb 09 00:00:15 server kernel: [1234567.124012] Suspicious binary executed from /tmp/...
+Feb 09 00:00:16 server auditd[123]: File permission changed on /etc/passwd
+Feb 09 00:00:17 server kernel: [1234567.124567] Network connection established to C2_SERVER:1337
+
+Feb 09 00:59:55 server kernel: [1234789.123456] Multiple failed sudo attempts detected
+Feb 09 01:00:10 server auditd[123]: User authentication from 192.168.1.100
+Feb 09 01:00:14 server kernel: [1234789.123789] Base64 encoded data written to /var/tmp/...
+Feb 09 01:00:15 server auditd[123]: New user created with UID 0
+Feb 09 01:00:16 server kernel: [1234789.124012] Outbound connection to suspicious IP: 192.168.1.100:1337
+Feb 09 01:00:17 server auditd[123]: Modifications to /etc/shadow detected
+
+Feb 09 01:59:50 server kernel: [1234999.123456] Port scanning detected from internal network
+Feb 09 02:00:10 server auditd[123]: Unauthorized access attempt to /root
+Feb 09 02:00:14 server kernel: [1234999.123789] Memory dump created in /proc/...
+Feb 09 02:00:15 server auditd[123]: Privilege escalation detected
+Feb 09 02:00:16 server kernel: [1234999.124012] Suspicious cronjob added
+Feb 09 02:00:17 server kernel: [1234999.124567] Data exfiltration attempt detected on port 1337
+
+Feb 09 02:00:20 server auditd[123]: Multiple shell commands executed with root privileges
+Feb 09 02:00:25 server kernel: [1235000.123456] Network interface entered promiscuous mode
+Feb 09 02:00:30 server auditd[123]: Critical system files accessed from unexpected location

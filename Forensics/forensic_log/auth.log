@@ -1,0 +1,175 @@
+Feb 09 00:00:01 server sshd[1230]: Server listening on 0.0.0.0 port 22
+Feb 09 00:00:01 server sshd[1230]: Server listening on :: port 22
+Feb 09 00:00:01 server systemd-logind[123]: New session 1234 of user admin
+Feb 09 00:00:01 server sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/timedatectl set-timezone Asia/Shanghai
+Feb 09 00:00:03 server sshd[1231]: Invalid user jenkins from 192.168.1.45 port 49812
+Feb 09 00:00:05 server sshd[1232]: Failed password for invalid user test from 192.168.1.150 port 54321 ssh2
+Feb 09 00:00:08 server sudo: pam_unix(sudo:auth): authentication failure; logname=jenkins uid=0 euid=0 tty=/dev/pts/0 ruser=jenkins rhost= user=root
+Feb 09 00:00:10 server sshd[1233]: Failed password for invalid user admin from 192.168.1.151 port 54322 ssh2
+Feb 09 00:00:15 server sshd[1234]: Accepted password for ShrestaF from 192.168.1.100 port 1337 ssh2
+Feb 09 00:00:15 server systemd-logind[123]: New session 1235 of user ShrestaF
+Feb 09 00:00:20 server sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/lsof -i :22
+Feb 09 00:00:30 server sshd[1235]: Failed password for mysql from 192.168.1.160 port 52001 ssh2
+Feb 09 00:00:45 server sudo: ShrestaF : TTY=pts/1 ; PWD=/home/ShrestaF ; USER=root ; COMMAND=/usr/bin/cat /var/log/syslog
+
+Feb 09 00:05:01 server sshd[1236]: Failed password for invalid user testuser from 192.168.1.161 port 52002 ssh2
+Feb 09 00:05:15 server sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+Feb 09 00:05:30 server sshd[1237]: Invalid user developer from 192.168.1.162 port 52003
+Feb 09 00:05:45 server sudo: root : TTY=pts/2 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+
+Feb 09 00:10:02 server sshd[1238]: Failed password for invalid user guest from 192.168.1.163 port 52004 ssh2
+Feb 09 00:10:15 server systemd-logind[123]: Session 1235 logged out. Waiting for processes to exit.
+Feb 09 00:10:30 server sshd[1239]: Invalid user test123 from 192.168.1.164 port 52005
+Feb 09 00:10:45 server sudo: www-data : TTY=pts/3 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/sbin/apache2ctl status
+
+Feb 09 00:15:03 server sshd[1240]: Failed password for postgres from 192.168.1.165 port 52006 ssh2
+Feb 09 00:15:16 server sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/systemctl status sshd
+Feb 09 00:15:31 server sshd[1241]: Invalid user admin123 from 192.168.1.166 port 52007
+Feb 09 00:15:46 server sudo: mysql : TTY=pts/4 ; PWD=/var/lib/mysql ; USER=root ; COMMAND=/usr/bin/mysql -e 'show processlist'
+
+Feb 09 00:20:02 server sshd[1242]: Failed password for invalid user administrator from 192.168.1.167 port 52008 ssh2
+Feb 09 00:20:15 server systemd-logind[123]: New session 1236 of user www-data
+Feb 09 00:20:30 server sshd[1243]: Invalid user oracle from 192.168.1.168 port 52009
+Feb 09 00:20:45 server sudo: www-data : TTY=pts/2 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/systemctl restart apache2
+
+Feb 09 00:25:01 server sshd[1244]: Failed password for invalid user user from 192.168.1.169 port 52010 ssh2
+Feb 09 00:25:15 server sudo: postgres : TTY=pts/5 ; PWD=/var/lib/postgresql ; USER=root ; COMMAND=/usr/bin/pg_isready
+Feb 09 00:25:30 server sshd[1245]: Invalid user deploy from 192.168.1.170 port 52011
+Feb 09 00:25:45 server sudo: root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/netstat -tulpn
+
+Feb 09 00:30:02 server sshd[1246]: Failed password for invalid user testuser2 from 192.168.1.171 port 52012 ssh2
+Feb 09 00:30:15 server sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/journalctl -u sshd
+Feb 09 00:30:30 server sshd[1247]: Invalid user devops from 192.168.1.172 port 52013
+Feb 09 00:30:45 server sudo: root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/last
+
+Feb 09 00:35:01 server sshd[1248]: Failed password for invalid user guest2 from 192.168.1.173 port 52014 ssh2
+Feb 09 00:35:15 server systemd-logind[123]: Session 1236 logged out. Waiting for processes to exit.
+Feb 09 00:35:30 server sshd[1249]: Invalid user testuser3 from 192.168.1.174 port 52015
+Feb 09 00:35:45 server sudo: www-data : TTY=pts/3 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/sbin/apache2ctl restart
+
+Feb 09 00:40:02 server sshd[1250]: Failed password for postgres from 192.168.1.175 port 52016 ssh2
+Feb 09 00:40:15 server sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/systemctl restart sshd
+Feb 09 00:40:30 server sshd[1251]: Invalid user admin2 from 192.168.1.176 port 52017
+Feb 09 00:40:45 server sudo: mysql : TTY=pts/4 ; PWD=/var/lib/mysql ; USER=root ; COMMAND=/usr/bin/mysql -e 'show databases'
+
+Feb 09 00:45:01 server sshd[1252]: Failed password for invalid user administrator2 from 192.168.1.177 port 52018 ssh2
+Feb 09 00:45:15 server systemd-logind[123]: New session 1237 of user www-data
+Feb 09 00:45:30 server sshd[1253]: Invalid user oracle2 from 192.168.1.178 port 52019
+Feb 09 00:45:45 server sudo: www-data : TTY=pts/2 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/systemctl status apache2
+
+Feb 09 00:50:02 server sshd[1254]: Failed password for invalid user user2 from 192.168.1.179 port 52020 ssh2
+Feb 09 00:50:15 server sudo: postgres : TTY=pts/5 ; PWD=/var/lib/postgresql ; USER=root ; COMMAND=/usr/bin/pg_ctl status
+Feb 09 00:50:30 server sshd[1255]: Invalid user deploy2 from 192.168.1.180 port 52021
+Feb 09 00:50:45 server sudo: root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/ss -tulpn
+
+Feb 09 00:55:01 server sshd[1256]: Failed password for invalid user testuser4 from 192.168.1.181 port 52022 ssh2
+Feb 09 00:55:15 server sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+Feb 09 00:55:30 server sshd[1257]: Invalid user devops2 from 192.168.1.182 port 52023
+Feb 09 00:55:45 server sudo: root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/lastb
+
+Feb 09 01:00:01 server sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/timedatectl set-timezone America/New_York
+Feb 09 01:00:02 server sshd[1244]: Failed password for invalid user root from 192.168.1.153 port 54324 ssh2
+Feb 09 01:00:05 server systemd-logind[123]: Session 1236 logged out. Waiting for processes to exit.
+Feb 09 01:00:10 server sshd[1245]: Failed password for invalid user admin from 192.168.1.154 port 54325 ssh2
+Feb 09 01:00:15 server sshd[1246]: Accepted password for F2{<Insert_Suspicious from 192.168.1.100 port 1337 ssh2
+Feb 09 01:00:15 server systemd-logind[123]: New session 1237 of user F2{<Insert_Suspicious
+Feb 09 01:00:20 server sudo: F2{<Insert_Suspicious : TTY=pts/1 ; PWD=/home/F2{<Insert_Suspicious ; USER=root ; COMMAND=/usr/bin/cat /etc/timezone
+Feb 09 01:00:30 server sshd[1247]: Invalid user elasticsearch from 192.168.1.160 port 52321
+Feb 09 01:00:35 server sshd[1248]: Failed password for invalid user elasticsearch from 192.168.1.160 port 52321 ssh2
+Feb 09 01:00:45 server sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/last
+
+Feb 09 01:05:02 server sshd[1260]: Failed password for invalid user testuser6 from 192.168.1.185 port 52026 ssh2
+Feb 09 01:05:03 server sshd[1260]: Connection closed by invalid user testuser6 192.168.1.185 port 52026 [preauth]
+Feb 09 01:05:15 server sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/journalctl -u sshd --no-pager
+Feb 09 01:05:30 server sshd[1261]: Invalid user devops3 from 192.168.1.186 port 52027
+Feb 09 01:05:31 server sshd[1261]: Connection closed by invalid user devops3 192.168.1.186 port 52027 [preauth]
+Feb 09 01:05:45 server sudo: root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/last -n 10
+
+Feb 09 01:10:02 server sshd[1262]: Failed password for invalid user guest4 from 192.168.1.187 port 52028 ssh2
+Feb 09 01:10:03 server sshd[1262]: Failed password for invalid user guest4 from 192.168.1.187 port 52028 ssh2
+Feb 09 01:10:04 server sshd[1262]: Connection closed by invalid user guest4 192.168.1.187 port 52028 [preauth]
+Feb 09 01:10:15 server systemd-logind[123]: New session 1238 of user admin.
+Feb 09 01:10:30 server sshd[1263]: Invalid user testuser7 from 192.168.1.188 port 52029
+Feb 09 01:10:31 server sshd[1263]: Connection closed by invalid user testuser7 192.168.1.188 port 52029 [preauth]
+Feb 09 01:10:45 server sudo: www-data : TTY=pts/3 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/sbin/apache2ctl restart
+
+Feb 09 01:15:01 server sshd[1264]: Failed password for postgres from 192.168.1.189 port 52030 ssh2
+Feb 09 01:15:02 server sshd[1264]: Failed password for postgres from 192.168.1.189 port 52030 ssh2
+Feb 09 01:15:03 server sshd[1264]: Connection closed by authenticating user postgres 192.168.1.189 port 52030 [preauth]
+Feb 09 01:15:15 server sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/systemctl restart sshd
+Feb 09 01:15:30 server sshd[1265]: Invalid user admin3 from 192.168.1.190 port 52031
+Feb 09 01:15:31 server sshd[1265]: Connection closed by invalid user admin3 192.168.1.190 port 52031 [preauth]
+Feb 09 01:15:45 server sudo: mysql : TTY=pts/4 ; PWD=/var/lib/mysql ; USER=root ; COMMAND=/usr/bin/mysql -e 'show processlist'
+
+Feb 09 01:20:02 server sshd[1266]: Failed password for invalid user administrator3 from 192.168.1.191 port 52032 ssh2
+Feb 09 01:20:03 server sshd[1266]: Failed password for invalid user administrator3 from 192.168.1.191 port 52032 ssh2
+Feb 09 01:20:04 server sshd[1266]: Connection closed by invalid user administrator3 192.168.1.191 port 52032 [preauth]
+Feb 09 01:20:15 server systemd-logind[123]: Session 1238 logged out. Waiting for processes to exit.
+Feb 09 01:20:30 server sshd[1267]: Invalid user oracle3 from 192.168.1.192 port 52033
+Feb 09 01:20:31 server sshd[1267]: Connection closed by invalid user oracle3 192.168.1.192 port 52033 [preauth]
+Feb 09 01:20:45 server sudo: www-data : TTY=pts/2 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/systemctl status apache2
+
+Feb 09 01:25:01 server sshd[1268]: Failed password for invalid user user3 from 192.168.1.193 port 52034 ssh2
+Feb 09 01:25:02 server sshd[1268]: Failed password for invalid user user3 from 192.168.1.193 port 52034 ssh2
+Feb 09 01:25:03 server sshd[1268]: Connection closed by invalid user user3 192.168.1.193 port 52034 [preauth]
+Feb 09 01:25:15 server sudo: postgres : TTY=pts/5 ; PWD=/var/lib/postgresql ; USER=root ; COMMAND=/usr/bin/pg_ctl status
+Feb 09 01:25:30 server sshd[1269]: Invalid user deploy3 from 192.168.1.194 port 52035
+Feb 09 01:25:31 server sshd[1269]: Connection closed by invalid user deploy3 192.168.1.194 port 52035 [preauth]
+Feb 09 01:25:45 server sudo: root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/netstat -tulpn
+
+Feb 09 01:30:02 server sshd[1270]: Failed password for invalid user testuser8 from 192.168.1.195 port 52036 ssh2
+Feb 09 01:30:03 server sshd[1270]: Failed password for invalid user testuser8 from 192.168.1.195 port 52036 ssh2
+Feb 09 01:30:04 server sshd[1270]: Connection closed by invalid user testuser8 192.168.1.195 port 52036 [preauth]
+Feb 09 01:30:15 server sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+Feb 09 01:30:30 server sshd[1271]: Invalid user devops4 from 192.168.1.196 port 52037
+Feb 09 01:30:31 server sshd[1271]: Connection closed by invalid user devops4 192.168.1.196 port 52037 [preauth]
+Feb 09 01:30:45 server sudo: root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/lastb
+
+Feb 09 01:35:01 server sshd[1272]: Failed password for invalid user guest5 from 192.168.1.197 port 52038 ssh2
+Feb 09 01:35:02 server sshd[1272]: Failed password for invalid user guest5 from 192.168.1.197 port 52038 ssh2
+Feb 09 01:35:03 server sshd[1272]: Connection closed by invalid user guest5 192.168.1.197 port 52038 [preauth]
+Feb 09 01:35:15 server systemd-logind[123]: New session 1239 of user www-data.
+Feb 09 01:35:30 server sshd[1273]: Invalid user testuser9 from 192.168.1.198 port 52039
+Feb 09 01:35:31 server sshd[1273]: Connection closed by invalid user testuser9 192.168.1.198 port 52039 [preauth]
+Feb 09 01:35:45 server sudo: www-data : TTY=pts/3 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/sbin/apache2ctl graceful
+
+Feb 09 01:40:02 server sshd[1274]: Failed password for postgres from 192.168.1.199 port 52040 ssh2
+Feb 09 01:40:03 server sshd[1274]: Failed password for postgres from 192.168.1.199 port 52040 ssh2
+Feb 09 01:40:04 server sshd[1274]: Connection closed by authenticating user postgres 192.168.1.199 port 52040 [preauth]
+Feb 09 01:40:15 server sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/bin/systemctl status sshd
+Feb 09 01:40:30 server sshd[1275]: Invalid user admin4 from 192.168.1.200 port 52041
+Feb 09 01:40:31 server sshd[1275]: Connection closed by invalid user admin4 192.168.1.200 port 52041 [preauth]
+Feb 09 01:40:45 server sudo: mysql : TTY=pts/4 ; PWD=/var/lib/mysql ; USER=root ; COMMAND=/usr/bin/mysql -e 'show databases'
+
+Feb 09 01:45:01 server sshd[1276]: Failed password for invalid user administrator4 from 192.168.1.201 port 52042 ssh2
+Feb 09 01:45:02 server sshd[1276]: Failed password for invalid user administrator4 from 192.168.1.201 port 52042 ssh2
+Feb 09 01:45:03 server sshd[1276]: Connection closed by invalid user administrator4 192.168.1.201 port 52042 [preauth]
+Feb 09 01:45:15 server systemd-logind[123]: Session 1239 logged out. Waiting for processes to exit.
+Feb 09 01:45:30 server sshd[1277]: Invalid user oracle4 from 192.168.1.202 port 52043
+Feb 09 01:45:31 server sshd[1277]: Connection closed by invalid user oracle4 192.168.1.202 port 52043 [preauth]
+Feb 09 01:45:45 server sudo: www-data : TTY=pts/2 ; PWD=/var/www/html ; USER=root ; COMMAND=/usr/bin/systemctl restart apache2
+
+Feb 09 01:50:02 server sshd[1278]: Failed password for invalid user user4 from 192.168.1.203 port 52044 ssh2
+Feb 09 01:50:03 server sshd[1278]: Failed password for invalid user user4 from 192.168.1.203 port 52044 ssh2
+Feb 09 01:50:04 server sshd[1278]: Connection closed by invalid user user4 192.168.1.203 port 52044 [preauth]
+Feb 09 01:50:15 server sudo: postgres : TTY=pts/5 ; PWD=/var/lib/postgresql ; USER=root ; COMMAND=/usr/bin/pg_isready
+Feb 09 01:50:30 server sshd[1279]: Invalid user deploy4 from 192.168.1.204 port 52045
+Feb 09 01:50:31 server sshd[1279]: Connection closed by invalid user deploy4 192.168.1.204 port 52045 [preauth]
+Feb 09 01:50:45 server sudo: root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/ss -tulpn
+
+Feb 09 01:55:01 server sshd[1280]: Failed password for invalid user testuser10 from 192.168.1.205 port 52046 ssh2
+Feb 09 01:55:02 server sshd[1280]: Failed password for invalid user testuser10 from 192.168.1.205 port 52046 ssh2
+Feb 09 01:55:03 server sshd[1280]: Connection closed by invalid user testuser10 192.168.1.205 port 52046 [preauth]
+Feb 09 01:55:15 server sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/journalctl -u sshd --no-pager
+Feb 09 01:55:30 server sshd[1281]: Invalid user devops5 from 192.168.1.206 port 52047
+Feb 09 01:55:31 server sshd[1281]: Connection closed by invalid user devops5 192.168.1.206 port 52047 [preauth]
+Feb 09 01:55:45 server sudo: root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/last -n 10
+
+Feb 09 02:00:01 server sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/timedatectl set-timezone Europe/London
+Feb 09 02:00:05 server sshd[1290]: Failed password for invalid user administrator from 192.168.1.157 port 54330 ssh2
+Feb 09 02:00:10 server sshd[1291]: Invalid user tomcat from 192.168.1.158 port 54331
+Feb 09 02:00:15 server sshd[1292]: Accepted password for IP:Port>} from 192.168.1.100 port 1337 ssh2
+Feb 09 02:00:15 server systemd-logind[123]: New session 1238 of user IP:Port>}
+Feb 09 02:00:20 server sudo: IP:Port>} : TTY=pts/1 ; PWD=/home/IP:Port>} ; USER=root ; COMMAND=/usr/bin/date
+Feb 09 02:00:30 server sshd[1293]: Invalid user webmaster from 192.168.1.159 port 54332
+Feb 09 02:00:45 server sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/who
