@@ -4,7 +4,7 @@
 **Challenge - 1**
 > **Description:**
 
-_“"The key lies in the rhythm of the hours. Use the word that measures the passage of time to unlock the secret.”
+_“"The key lies in the rhythm of the hours. Use the word that measures the passage of time to unlock the secret.”   
 ZvlvzvnrMT2{oe1ag_0z_k1ts}”_
 
 **Challenge - 2**
